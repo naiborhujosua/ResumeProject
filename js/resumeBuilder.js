@@ -62,10 +62,6 @@ var bio = {
 };
 bio.display();
 
-
-
-
-
 var education = {
     "schools": [{
 
@@ -119,8 +115,6 @@ var work = {
     ]
 };
 
-
-
 var projects = {
     "projects": [
      {
@@ -137,7 +131,6 @@ var projects = {
 
 };
 
-
 work.display = function() {
     for (var job in work.jobs) {
         $("#workExperience").append(HTMLworkStart);
@@ -153,7 +146,6 @@ work.display = function() {
 
     }
 };
-
 
 work.display();
 
@@ -186,8 +178,6 @@ education.display = function() {
         var formattedNameandDegree = formattedschoolName + formattedschoolDegree + formattedschoolDates +  formattedschoolLocation + formattedschoolMajor;
         $(".education-entry:last").append(formattedNameandDegree);
        
-       
-        
     }
 
     $("#education").append(HTMLonlineClasses);
